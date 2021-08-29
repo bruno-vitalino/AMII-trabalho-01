@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+
+html,main, body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0d1117;  
+}
+
+.container-fluid{
+    background-color: #0d1117;
+    padding-top: 2rem;
+}
+
+h2, p, tb, th, tr{
+    color: white;
+}
+
+body{
+    min-height: 100%;
+}
+
+tbody{
+    background-color: #1a2028;
+    box-shadow: #212933;
+}
+
+input, select, textarea{
+    color: #ededed;
+}
+
+textarea:focus, input:focus {
+    color: #ededed;
+}
+
+.content{
+    display: flex;
+}
+
+.content h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.content p{
+    font-size: 1rem;
+}
+
+
+.img{
+    max-block-size: 30rem;
+}
+
+.show{
+    display:inline-flexbox;
+    
+}
+
+
+.fa-pen, .fa-trash-alt{
+    color: #39a6ff;
+}
+
+
+.navbar{
+    background-color:#161b22;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+
+.hidden{
+    display:none;
+}
+
+.nav-item{
+    font-weight: 400;
+}
+
+table{
+    display: flexbox;
+    width: 100%;
+    
+}
+ 
+
+
+.table-responsive-xl h1{
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: white;
+    justify-content: center;
+    
+}
+
+.table-responsive-xl table {
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+}
+
+.add-form input {
+    margin-bottom: 1.5rem;
+    background-color: #212933;
+    max-width: 25rem;
+    border-radius: 5px;
+}
+
+.add-form-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.add-form-buttons #add-form-submit {
+    margin-right: 1.5rem;
+}
+
+.list-header{
+    margin-top: 3rem;
+}
+
+#page-container{
+    position: relative;
+    min-height: 100vh;
+    background-color: #0d1117;  
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+  }
+
+
+#add-form-call{
+    color: #39a6ff;
+}
+
+#list-call {
+    color: #39a6ff;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  height: 2.2rem;
+}
+
