@@ -47,13 +47,13 @@ router.post('/cadastro/update',(req,res)=>{
     
     //validações
     if (!emailRegex.test(req.body.email)) {
-        isValid == false;
+        isValid = false;
     }
     if (req.body.vote.toLowerCase() != "yes" || req.body.vote.toLowerCase() != "no") {
-        isValid == false;
+        isValid = false;
     }
     if (typeof req.body.age != Number) {
-        isValid == false;
+        isValid = false;
     }
     
     
